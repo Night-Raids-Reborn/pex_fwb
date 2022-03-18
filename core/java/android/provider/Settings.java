@@ -6021,6 +6021,12 @@ public final class Settings {
         public static final String QS_LAYOUT_COLUMNS = "qs_layout_columns";
 
         /**
+         * Control whether FLAG_SECURE is ignored for all windows.
+         * @hide
+         */
+        public static final String WINDOW_IGNORE_SECURE = "window_ignore_secure";
+
+        /**
          * @hide
          */
         public static final String QS_TILE_VERTICAL_LAYOUT = "qs_tile_vertical_layout";
