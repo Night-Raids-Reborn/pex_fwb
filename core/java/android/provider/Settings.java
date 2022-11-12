@@ -11391,13 +11391,6 @@ public final class Settings {
         public static final String SHOW_COMBINED_STATUS_BAR_SIGNAL_ICONS = "show_combined_status_bar_signal_icons";
 
         /**
-         * Whether tethering is allowed to use VPN upstreams
-         * 0 = false, 1 = true
-         */
-        @SuppressLint("NoSettingsProvider")
-        public static final String TETHERING_ALLOW_VPN_UPSTREAMS = "tethering_allow_vpn_upstreams";
-
-        /**
          * What happens when the user presses the Home button when the
          * phone is ringing.<br/>
          * <b>Values:</b><br/>
